@@ -3,6 +3,7 @@ import cors from "cors";
 import helmet from "helmet";
 import compression from "compression";
 import { registerRoutes } from "./routes";
+import 'dotenv/config';
 
 const app = express();
 const PORT = parseInt(process.env.PORT || "5000");

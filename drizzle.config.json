@@ -1,8 +1,11 @@
-{
-  "schema": "./shared/schema.ts",
-  "out": "./drizzle",
-  "dialect": "postgresql",
-  "dbCredentials": {
-    "url": "$DATABASE_URL"
-  }
-}
+import type { Config } from 'drizzle-kit';
+import 'dotenv/config'; // Garante que o .env seja lido
+
+export default {
+  schema: './shared/schema.ts',
+  out: './drizzle',
+  dialect: 'postgresql',
+  dbCredentials: {
+    url: process.env.DATABASE_URL!, // Lê a variável diretamente
+  },
+} satisfies Config;

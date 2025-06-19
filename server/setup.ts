@@ -1,5 +1,6 @@
 import { db } from "./db";
 import { plans } from "../shared/schema";
+import 'dotenv/config';
 
 async function setupDatabase() {
   console.log("🔧 Configurando banco de dados...");
