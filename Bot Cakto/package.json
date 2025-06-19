@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@discordjs/voice": "^0.16.1",
+    "discord.js": "^14.14.1",
+    "wio.db": "^4.0.22",
+    "axios": "^1.6.7",
+    "mercadopago": "^2.0.8",
+    "moment": "^2.30.1"
+  }
+}

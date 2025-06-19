@@ -1,0 +1,48 @@
+{
+    "creator": "1249702212385636442",
+    "color": {
+        "padrao": "#090b0c"
+    },
+    "vendas": "ON",
+    "canais": {
+        "logs_adm": "1236078196718309437",
+        "logs_publica": "1236078196718309437",
+        "canal_refs": "",
+        "categoria": "1236078169912643604",
+        "cargo_cliente": "1250468355056599091"
+    },
+    "paymentauto": {
+        "access_token": "APP_USR-2862156725618593-051201-c4ad62a588b8c17e0325cf5d9937d43f-274423489",
+        "pix": "ON",
+        "pagarsite": "ON",
+        "tempopagar": "15"
+    },
+    "paymentsemi": {
+        "pix": "OFF",
+        "chavepix": "",
+        "qrcode": "",
+        "tipochave": ""
+    },
+    "saldo": {
+        "saldo": "ON",
+        "bonus": "0",
+        "minimo": "0",
+        "tipochave": ""
+    },
+    "images": {
+        "banner": "",
+        "thumbnail": ""
+    },
+    "status": {
+        "prensence": "online",
+        "atividade": "Playing",
+        "texto": "",
+        "url": "https://www.twitch.tv/discord",
+        "presence": "online"
+    },
+    "termos": "remover",
+    "bancos_bloqueados": {
+        "inter": "inter"
+    },
+    "blacklist": []
+}

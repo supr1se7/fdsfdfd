@@ -1,0 +1,17 @@
+{
+    "teste": {
+        "nome": "Não configurado",
+        "desc": "Não configurado ainda",
+        "preco": 10,
+        "estoque": [],
+        "banner": null,
+        "thumb": null,
+        "cor": "#090b0c",
+        "cupom": "ON",
+        "categoria": null,
+        "idmsg": "1377682086965805237",
+        "idcanal": "1377668741634068543",
+        "cargo": "null",
+        "notify": []
+    }
+}

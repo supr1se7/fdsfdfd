@@ -1,0 +1,2960 @@
+{
+    "1240128023567667302": {
+        "status": "Pagando com pix",
+        "user": "1179819703414313013",
+        "username": "malditohomem7",
+        "preco": 10,
+        "data": 1715739950624,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "tetse"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "tetse": {
+            "ID": "tetse",
+            "nome": "teste",
+            "quantidade": 1,
+            "valor": "10.00"
+        }
+    },
+    "1241837137389949038": {
+        "status": "Pagando com pix",
+        "user": "660123795281018930",
+        "username": "skyx.7",
+        "preco": 0.79,
+        "data": 1716147448242,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "trimensal"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "trimensal": {
+            "ID": "trimensal",
+            "nome": "Trimensal",
+            "quantidade": 1,
+            "valor": "0.79"
+        }
+    },
+    "1241838666272211035": {
+        "status": "Pagando com site",
+        "user": "660123795281018930",
+        "username": "skyx.7",
+        "preco": 0.79,
+        "data": 1716147811055,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "trimensal"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "trimensal": {
+            "ID": "trimensal",
+            "nome": "Trimensal",
+            "quantidade": 1,
+            "valor": "0.79"
+        }
+    },
+    "async send(options) {\n    const User = require('": {
+        "": {
+            "/User');\n    const { GuildMember } = require('": {
+                "": {
+                    "/GuildMember');\n\n    if (this instanceof User || this instanceof GuildMember) {\n      const dm = await this": {
+                        "createDM();\n      return dm": {
+                            "send(options);\n    }\n\n    let messagePayload;\n\n    if (options instanceof MessagePayload) {\n      messagePayload = options": {
+                                "resolveBody();\n    } else {\n      messagePayload = MessagePayload": {
+                                    "create(this, options)": {
+                                        "resolveBody();\n    }\n\n    const { body, files } = await messagePayload": {
+                                            "resolveFiles();\n    const d = await this": {
+                                                "client": {
+                                                    "rest": {
+                                                        "post(Routes": {
+                                                            "channelMessages(this": {
+                                                                "id), { body, files });\n\n    return this": {
+                                                                    "messages": {
+                                                                        "cache": {
+                                                                            "get(d": {
+                                                                                "id) ?? this": {
+                                                                                    "messages": {
+                                                                                        "_add(d);\n  }": {
+                                                                                            "idreembolso": 79859264234
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "1241857433048055949": {
+        "status": "Entregue",
+        "user": "660123795281018930",
+        "username": "skyx.7",
+        "preco": 0.79,
+        "data": 1716152285871,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "trimensal"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 78462428675,
+        "entregue": [
+            "<:emoji_18:1241799354973556777> | Entrega do Produto: Trimensal - 1/1\nhttps://discord.com/billing/promotions/MWcB5bEFEcQmPx9JjsrRYBZz\n\n"
+        ],
+        "trimensal": {
+            "ID": "trimensal",
+            "nome": "Trimensal",
+            "quantidade": 1,
+            "valor": "0.79"
+        }
+    },
+    "1241918650886393948": {
+        "status": "Gerenciando",
+        "user": "1182823854087876679",
+        "username": "firminoh7.",
+        "preco": 0,
+        "data": 1716166883588,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "emojis"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "emojis": {
+            "ID": "emojis",
+            "nome": "Emojis da Cyans",
+            "quantidade": 1,
+            "valor": "2.99"
+        }
+    },
+    "1242673810935779340": {
+        "status": "Pagando com site",
+        "user": "1172699432668647553",
+        "username": "vtzin_v7",
+        "preco": 10,
+        "data": 1716346926851,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "kkk"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "kkk": {
+            "ID": "kkk",
+            "nome": "Não configurado",
+            "quantidade": 1,
+            "valor": 10
+        }
+    },
+    "1242864091458965566": {
+        "status": "Gerenciando",
+        "user": "1202638046445699138",
+        "username": "caioxtobrabo244",
+        "preco": 0,
+        "data": 1716392294241,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "virgem"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "virgem": {
+            "ID": "virgem",
+            "nome": "Conta Virgem",
+            "quantidade": 1,
+            "valor": "0.59"
+        }
+    },
+    "1242885044360708126": {
+        "status": "Gerenciando (2)",
+        "user": "1221234818386362559",
+        "username": "5551x",
+        "preco": 0.59,
+        "data": 1716397288050,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "virgem"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "virgem": {
+            "ID": "virgem",
+            "nome": "Conta Virgem",
+            "quantidade": 1,
+            "valor": "0.59"
+        }
+    },
+    "1242885099440046248": {
+        "status": "Entregue",
+        "user": "1221234818386362559",
+        "username": "5551x",
+        "preco": 5.9,
+        "data": 1716397300963,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "virgem"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 78651524313,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Conta Virgem - 10/10\nabrir ticket\nabrir ticket\nabrir ticket\nabrir ticket\nabrir ticket\nabrir ticket\nabrir ticket\nabrir ticket\nabrir ticket\nabrir ticket\n\n"
+        ],
+        "virgem": {
+            "ID": "virgem",
+            "nome": "Conta Virgem",
+            "quantidade": 10,
+            "valor": "5.90"
+        }
+    },
+    "1242960399762980960": {
+        "status": "Entregue",
+        "user": "1179819703414313013",
+        "username": "malditohomem7",
+        "preco": 0.95,
+        "data": 1716415254122,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "Nitrada/m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Nitrada Mensal - 1/1\nNitradamensalautoral20828@firemail.com.br:vitor463442\n\n",
+            "⚠️ | Falha ao entregar o Produto: Nitrada Mensal, Quantidade: 1, Motivo: Estoque do produto esgotado!\n\n"
+        ],
+        "Nitrada/m": {
+            "ID": "Nitrada/m",
+            "nome": "Nitrada Mensal",
+            "quantidade": 1,
+            "valor": "0.95"
+        }
+    },
+    "1242987683756638261": {
+        "status": "Pagando com pix",
+        "user": "1200111398726930587",
+        "username": "019_paraibakk",
+        "preco": 0.75,
+        "data": 1716421759554,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "spotify3m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "spotify3m": {
+            "ID": "spotify3m",
+            "nome": "Spotify 1 mes",
+            "quantidade": 1,
+            "valor": "0.75"
+        }
+    },
+    "1242988128952778802": {
+        "status": "Pagando com pix",
+        "user": "1200111398726930587",
+        "username": "019_paraibakk",
+        "preco": 0.75,
+        "data": 1716421864785,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "spotify3m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "spotify3m": {
+            "ID": "spotify3m",
+            "nome": "Spotify 1 mes",
+            "quantidade": 1,
+            "valor": "0.75"
+        }
+    },
+    "1242989254410371236": {
+        "status": "Entregue",
+        "user": "966873330391060481",
+        "username": "cunha5232",
+        "preco": 0.75,
+        "data": 1716422134455,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "spotify3m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 78681792213,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Spotify 1 mes - 1/1\n9c9f089b90ae1a9f94989cd8341c8052@firemail.com.br:vitor463442\n\n"
+        ],
+        "spotify3m": {
+            "ID": "spotify3m",
+            "nome": "Spotify 1 mes",
+            "quantidade": 1,
+            "valor": "0.75"
+        }
+    },
+    "1242989855060000810": {
+        "status": "Entregue",
+        "user": "1003468327663976551",
+        "username": "1945meuauge",
+        "preco": 0.88,
+        "data": 1716422277497,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "Nitrada/m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 78681673309,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Nitrada Mensal - 1/1\nNitradaautoralen2025@firemail.com.br:alerra12\n\n"
+        ],
+        "Nitrada/m": {
+            "ID": "Nitrada/m",
+            "nome": "Nitrada Mensal",
+            "quantidade": 1,
+            "valor": "0.88"
+        }
+    },
+    "1242989891587936276": {
+        "status": "Reembolsado",
+        "user": "965805227209003010",
+        "username": "froxtz7x",
+        "preco": 0.88,
+        "data": 1716422286234,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "Nitrada/m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 78681902269,
+        "entregue": [
+            "⚠️ | Falha ao entregar o Produto: Nitrada Mensal, Quantidade: 1, Motivo: Estoque do produto esgotado!\n\n"
+        ],
+        "Nitrada/m": {
+            "ID": "Nitrada/m",
+            "nome": "Nitrada Mensal",
+            "quantidade": 1,
+            "valor": "0.88"
+        }
+    },
+    "1243028562043211901": {
+        "status": "Pagando com pix",
+        "user": "1200111398726930587",
+        "username": "019_paraibakk",
+        "preco": 0.15,
+        "data": 1716431504525,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "nitro/m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "nitro/m": {
+            "ID": "nitro/m",
+            "nome": "Nitro Mensal",
+            "quantidade": 1,
+            "valor": "0.15"
+        }
+    },
+    "1243041242825359422": {
+        "status": "Gerenciando",
+        "user": "1230179661707743304",
+        "username": "zezinxhhh",
+        "preco": 0,
+        "data": 1716434529119,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "nitro/m"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "nitro/m": {
+            "ID": "nitro/m",
+            "nome": "Nitro Mensal",
+            "quantidade": 1,
+            "valor": "0.09"
+        }
+    },
+    "1243041384441577512": {
+        "status": "Entregue",
+        "user": "1083799167572385793",
+        "username": "ligero69_",
+        "preco": 0.09,
+        "data": 1716434562363,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "nitro/m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 78690736775,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Nitro Mensal - 1/1\nhttps://discord.com/billing/promotions/jUhPGeprRBbj2Gm7N6jqsnCR\n\n"
+        ],
+        "nitro/m": {
+            "ID": "nitro/m",
+            "nome": "Nitro Mensal",
+            "quantidade": 1,
+            "valor": "0.09"
+        }
+    },
+    "1243223294329491626": {
+        "status": "Pagando com pix",
+        "user": "903697815929229332",
+        "username": "progames3641",
+        "preco": 0.09,
+        "data": 1716477933381,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "nitro/m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "nitro/m": {
+            "ID": "nitro/m",
+            "nome": "Nitro Mensal",
+            "quantidade": 1,
+            "valor": "0.09"
+        }
+    },
+    "1243234496845971567": {
+        "status": "Gerenciando",
+        "user": "1200564492707315802",
+        "username": "yasminn_cria.",
+        "preco": 0,
+        "data": 1716480608968,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "nitro/m"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "nitro/m": {
+            "ID": "nitro/m",
+            "nome": "Nitro Mensal",
+            "quantidade": 1,
+            "valor": "0.09"
+        }
+    },
+    "1243306388806176871": {
+        "status": "Gerenciando",
+        "user": "1172699432668647553",
+        "username": "vtzin_v7",
+        "preco": 0,
+        "data": 1716497744142,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "gift"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "gift": {
+            "ID": "gift",
+            "nome": "Nitro gift Basic",
+            "quantidade": 1,
+            "valor": "3.50"
+        }
+    },
+    "1243317345208893460": {
+        "status": "Entregue",
+        "user": "1003468327663976551",
+        "username": "1945meuauge",
+        "preco": 3.5,
+        "data": 1716500355487,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "gift"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 78739716459,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Nitro gift Basic - 1/1\nTicket\n\n"
+        ],
+        "gift": {
+            "ID": "gift",
+            "nome": "Nitro gift Basic",
+            "quantidade": 1,
+            "valor": "3.50"
+        }
+    },
+    "1243319816484556811": {
+        "status": "Entregue",
+        "user": "1003468327663976551",
+        "username": "1945meuauge",
+        "preco": 5.5,
+        "data": 1716500945265,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "gift"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 78993581486,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Nitro gift Basic - 2/2\nticket 🥲\nticket 🥲\n\n"
+        ],
+        "gift": {
+            "ID": "gift",
+            "nome": "Nitro gift Basic",
+            "quantidade": 2,
+            "valor": "5.50"
+        }
+    },
+    "1243356580817141771": {
+        "status": "Reembolsado",
+        "user": "1083799167572385793",
+        "username": "ligero69_",
+        "preco": 0.09,
+        "data": 1716509710030,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "nitro/m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79004818564,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Nitro Mensal - 1/1\nSó pra teste\n\n"
+        ],
+        "nitro/m": {
+            "ID": "nitro/m",
+            "nome": "Nitro Mensal",
+            "quantidade": 1,
+            "valor": "0.09"
+        }
+    },
+    "1243364463260729456": {
+        "status": "Pagando com pix",
+        "user": "1200111398726930587",
+        "username": "019_paraibakk",
+        "preco": 3.6,
+        "data": 1716511589387,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "virgem"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "virgem": {
+            "ID": "virgem",
+            "nome": "Conta Virgem",
+            "quantidade": 9,
+            "valor": "3.60"
+        }
+    },
+    "1243364663144484905": {
+        "status": "Entregue",
+        "user": "1200111398726930587",
+        "username": "019_paraibakk",
+        "preco": 3.6,
+        "data": 1716511637136,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "virgem"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Conta Virgem - 9/9\nticket\nticket\nticket\nticket\nticket\nticket\nticket\nticket\nticket\n\n"
+        ],
+        "virgem": {
+            "ID": "virgem",
+            "nome": "Conta Virgem",
+            "quantidade": 9,
+            "valor": "3.60"
+        }
+    },
+    "1243394430782672947": {
+        "status": "Entregue",
+        "user": "1141683314378412102",
+        "username": "g7.diferente",
+        "preco": 0.4,
+        "data": 1716518736154,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "virgem"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 78758153989,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Conta Virgem - 1/1\nticket\n\n"
+        ],
+        "virgem": {
+            "ID": "virgem",
+            "nome": "Conta Virgem",
+            "quantidade": 1,
+            "valor": "0.40"
+        }
+    },
+    "1243498729722347621": {
+        "status": "Gerenciando",
+        "user": "1179819703414313013",
+        "username": "malditohomem7",
+        "preco": 0,
+        "data": 1716543601347,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "bot/v"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "bot/v": {
+            "ID": "bot/v",
+            "nome": "Bot De Vendas",
+            "quantidade": 1,
+            "valor": "3.50"
+        }
+    },
+    "1243544520629551154": {
+        "status": "Pagando com pix",
+        "user": "1232483252992999554",
+        "username": "chorabandida",
+        "preco": 4.99,
+        "data": 1716554519868,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "spotify3m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "spotify3m": {
+            "ID": "spotify3m",
+            "nome": "Spotify Anual",
+            "quantidade": 1,
+            "valor": "4.99"
+        }
+    },
+    "1243545542911332444": {
+        "status": "Pagando",
+        "user": "1200564492707315802",
+        "username": "yasminn_cria.",
+        "preco": 3.5,
+        "data": 1716554762442,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "bot/v"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "bot/v": {
+            "ID": "bot/v",
+            "nome": "Bot De Vendas",
+            "quantidade": 1,
+            "valor": "3.50"
+        }
+    },
+    "1243546785700384780": {
+        "status": "Entregue",
+        "user": "1232483252992999554",
+        "username": "chorabandida",
+        "preco": 4.99,
+        "data": 1716555058362,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "spotify3m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Spotify Anual - 1/1\nTICKET\n\n"
+        ],
+        "spotify3m": {
+            "ID": "spotify3m",
+            "nome": "Spotify Anual",
+            "quantidade": 1,
+            "valor": "4.99"
+        }
+    },
+    "1243548645958221824": {
+        "status": "Entregue",
+        "user": "930067978001719356",
+        "username": "__sh1nj1",
+        "preco": 4.99,
+        "data": 1716555503356,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "spotify3m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79026506276,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Spotify Anual - 1/1\nTicket \n\n"
+        ],
+        "spotify3m": {
+            "ID": "spotify3m",
+            "nome": "Spotify Anual",
+            "quantidade": 1,
+            "valor": "4.99"
+        }
+    },
+    "1243583643717341186": {
+        "status": "Entregue",
+        "user": "930067978001719356",
+        "username": "__sh1nj1",
+        "preco": 16.99,
+        "data": 1716563846483,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "Minecraft"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 78783438739,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Minecraft FA - 1/1\nTicket\n\n"
+        ],
+        "Minecraft": {
+            "ID": "Minecraft",
+            "nome": "Minecraft FA",
+            "quantidade": 1,
+            "valor": "16.99"
+        }
+    },
+    "1243584952331796551": {
+        "status": "Entregue",
+        "user": "843558459931885612",
+        "username": "jotathewizzard",
+        "preco": 4.35,
+        "data": 1716564159754,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "spotify3m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79037358792,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Spotify Anual - 1/1\nTicket\n\n"
+        ],
+        "spotify3m": {
+            "ID": "spotify3m",
+            "nome": "Spotify Anual",
+            "quantidade": 1,
+            "valor": "4.35"
+        }
+    },
+    "1243642745978097674": {
+        "status": "Gerenciando (2)",
+        "user": "1200564492707315802",
+        "username": "yasminn_cria.",
+        "preco": 3.5,
+        "data": 1716577937341,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "bot/v"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "bot/v": {
+            "ID": "bot/v",
+            "nome": "Bot De Vendas",
+            "quantidade": 1,
+            "valor": "3.50"
+        }
+    },
+    "1243673900269965312": {
+        "status": "Pagando com pix",
+        "user": "1239626720923877457",
+        "username": "cabritinha007_",
+        "preco": 4.5,
+        "data": 1716585365904,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "netflix"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "netflix": {
+            "ID": "netflix",
+            "nome": "Netflix Tela",
+            "quantidade": 1,
+            "valor": "4.50"
+        }
+    },
+    "1243687104244875396": {
+        "status": "Entregue",
+        "user": "1049136255373426698",
+        "username": "manfire_.",
+        "preco": 0.4,
+        "data": 1716588513858,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "virgem"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 78814108463,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Conta Virgem - 1/1\n5218daf815d3412272162879ac14221b@firemail.com.br:2230suup\n\n"
+        ],
+        "virgem": {
+            "ID": "virgem",
+            "nome": "Conta Virgem",
+            "quantidade": 1,
+            "valor": "0.40"
+        }
+    },
+    "1243693882571751494": {
+        "status": "Entregue",
+        "user": "1049136255373426698",
+        "username": "manfire_.",
+        "preco": 4.4,
+        "data": 1716590129148,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "virgem"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79069794232,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Conta Virgem - 11/11\ne2f5d1aed416dc5b650481a9189e4aad@firemail.com.br:2230suup\n6bc353285a80b61ead8183377a66788d@firemail.com.br;2230suup\n2e228664aa4d1489460de3e229d818bb@firemail.com.br;2230suup\n6be9e19b5ef7225e54d188755d9ef584@firemail.com.br:2230suup\n1095bb37da780da3b78463cddacc507f@firemail.com.br:2230suup\nb682177df70a937f041ba5b591856883@firemail.com.br:2230suup\n486c74482a4d8238d2f95faf3befb9bf@firemail.com.br:2230suup\na9db4cf5f0d1eea0f0b448c3ad7acf7d@firemail.com.br:2230suup\n143d26b2586dc687cecdba34c839f5b5@firemail.com.br:2230suup\nb16cf73fc234402b91896c55566eec0e@firemail.com.br:2230suup\n69461786a8b4e1fa69b62e17875458c1@firemail.com.br:2230suup\n\n"
+        ],
+        "virgem": {
+            "ID": "virgem",
+            "nome": "Conta Virgem",
+            "quantidade": 11,
+            "valor": "4.40"
+        }
+    },
+    "1243752620737298544": {
+        "status": "Entregue",
+        "user": "1112199883798097961",
+        "username": "bgzin01_",
+        "preco": 0.89,
+        "data": 1716604135204,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "Nitrada/m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79084273036,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Nitrada Mensal - 1/1\na160c2385f4a79642ac13a70e12004c0@firemail.com.br:2230suup\n\n"
+        ],
+        "Nitrada/m": {
+            "ID": "Nitrada/m",
+            "nome": "Nitrada Mensal",
+            "quantidade": 1,
+            "valor": "0.89"
+        }
+    },
+    "1243763449436180580": {
+        "status": "Pagando com site",
+        "user": "936451658576179242",
+        "username": "rtkzurz",
+        "preco": 10.99,
+        "data": 1716606718016,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "gift"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "gift": {
+            "ID": "gift",
+            "nome": "Nitro Gift Gaming",
+            "quantidade": 1,
+            "valor": "10.99"
+        }
+    },
+    "1243902815915737119": {
+        "status": "Gerenciando",
+        "user": "1130168483020296212",
+        "username": "lxzinnxd",
+        "preco": 0,
+        "data": 1716639945647,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "gift"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "gift": {
+            "ID": "gift",
+            "nome": "Nitro Gift Gaming",
+            "quantidade": 1,
+            "valor": "10.99"
+        }
+    },
+    "1244136853800747110": {
+        "status": "Entregue",
+        "user": "826626279973191691",
+        "username": "diplomataa",
+        "preco": 4.5,
+        "data": 1716695745240,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "netflix"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 78896851141,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Netflix Tela - 1/1\nTicket\n\n"
+        ],
+        "netflix": {
+            "ID": "netflix",
+            "nome": "Netflix Tela",
+            "quantidade": 1,
+            "valor": "4.50"
+        }
+    },
+    "1244319095017443429": {
+        "status": "Gerenciando",
+        "user": "1234354816818483230",
+        "username": "ceguindagrota.",
+        "preco": 0,
+        "data": 1716739191473,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "bot/v"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "bot/v": {
+            "ID": "bot/v",
+            "nome": "Bot De Vendas",
+            "quantidade": 1,
+            "valor": "3.50"
+        }
+    },
+    "1244840426859532408": {
+        "2941948285": {
+            "ID": "2941948285",
+            "nome": "GHM+LV MAX",
+            "quantidade": 1,
+            "valor": "4"
+        },
+        "status": "Pagando com pix",
+        "user": "903697815929229332",
+        "username": "progames3641",
+        "preco": 4,
+        "data": 1716863487207,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "2941948285"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1244841160107884667": {
+        "2": {
+            "ID": "2",
+            "nome": "teste",
+            "quantidade": 1,
+            "valor": "1"
+        },
+        "status": "Pagando com pix",
+        "user": "903697815929229332",
+        "username": "progames3641",
+        "preco": 1,
+        "data": 1716863661313,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "2"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1244841794437513227": {
+        "2": {
+            "ID": "2",
+            "nome": "teste",
+            "quantidade": 1,
+            "valor": "1"
+        },
+        "status": "Pagando com pix",
+        "user": "903697815929229332",
+        "username": "progames3641",
+        "preco": 0.010000000000000009,
+        "data": 1716863812594,
+        "pagamento": "Pix",
+        "cupomutilizado": "samuel",
+        "valorcupom": 0.99,
+        "produtos": [
+            "2"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1244842206699982848": {
+        "2": {
+            "ID": "2",
+            "nome": "teste",
+            "quantidade": 1,
+            "valor": "1"
+        },
+        "status": "Entregue",
+        "user": "903697815929229332",
+        "username": "progames3641",
+        "preco": 1,
+        "data": 1716863911958,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "2"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79262311902,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: teste - 1/1\noi\n\n"
+        ]
+    },
+    "1245034370415460393": {
+        "3254353": {
+            "ID": "3254353",
+            "nome": "COMBOS GOD HUMAN",
+            "quantidade": 1,
+            "valor": "4.00"
+        },
+        "status": "Pagando com pix",
+        "user": "903697815929229332",
+        "username": "progames3641",
+        "preco": 3.6,
+        "data": 1716909726160,
+        "pagamento": "Pix",
+        "cupomutilizado": "LOJA FROSTZIN",
+        "valorcupom": 0.4,
+        "produtos": [
+            "3254353"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1245035035988332761": {
+        "3245356": {
+            "ID": "3245356",
+            "nome": "GHM+MITICA+LV MAX",
+            "quantidade": 1,
+            "valor": "6.5"
+        },
+        "status": "Entregue",
+        "user": "903697815929229332",
+        "username": "progames3641",
+        "preco": 6.5,
+        "data": 1716909885230,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3245356"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [
+            "📦 | Entrega do Produto: GHM+MITICA+LV MAX - 1/1\nNome da conta:2k5oas    Senha da conta:417108888B\n\n"
+        ]
+    },
+    "1245036508260601948": {
+        "3245356": {
+            "ID": "3245356",
+            "nome": "GHM+MITICA+LV MAX",
+            "quantidade": 1,
+            "valor": "6.5"
+        },
+        "status": "Gerenciando",
+        "user": "903697815929229332",
+        "username": "progames3641",
+        "preco": 0,
+        "data": 1716910236255,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3245356"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1245075832322523246": {
+        "3254353": {
+            "ID": "3254353",
+            "nome": "COMBOS GOD HUMAN",
+            "quantidade": 1,
+            "valor": "4"
+        },
+        "status": "Pagando",
+        "user": "903697815929229332",
+        "username": "progames3641",
+        "preco": 4,
+        "data": 1716919611982,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3254353"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1245078076103331953": {
+        "234325865": {
+            "ID": "234325865",
+            "nome": "DOUGH V2+GHM+CDK+SG+LV MAX",
+            "quantidade": 1,
+            "valor": "13"
+        },
+        "status": "Entregue",
+        "user": "875133588310487050",
+        "username": "jxgnzinkkj",
+        "preco": 13,
+        "data": 1716920147071,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "234325865"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79042629045,
+        "entregue": [
+            "📦 | Entrega do Produto: DOUGH V2+GHM+CDK+SG+LV MAX - 1/1\nddRGfZ6M/Hcyybb)4553\n\n"
+        ]
+    },
+    "1245098774716481669": {
+        "3254353": {
+            "ID": "3254353",
+            "nome": "COMBOS GOD HUMAN",
+            "quantidade": 1,
+            "valor": "4"
+        },
+        "status": "Gerenciando",
+        "user": "903697815929229332",
+        "username": "progames3641",
+        "preco": 0,
+        "data": 1716925081582,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3254353"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1245102589561802822": {
+        "3254353": {
+            "ID": "3254353",
+            "nome": "COMBOS GOD HUMAN",
+            "quantidade": 1,
+            "valor": "4"
+        },
+        "status": "Pagando com pix",
+        "user": "903697815929229332",
+        "username": "progames3641",
+        "preco": 3.6,
+        "data": 1716925990837,
+        "pagamento": "Pix",
+        "cupomutilizado": "LOJA FROSTZIN",
+        "valorcupom": 0.4,
+        "produtos": [
+            "3254353"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1245366534126436382": {
+        "3254353": {
+            "ID": "3254353",
+            "nome": "COMBOS GOD HUMAN",
+            "quantidade": 1,
+            "valor": "4"
+        },
+        "status": "Pagando com pix",
+        "user": "903697815929229332",
+        "username": "progames3641",
+        "preco": 4,
+        "data": 1716988921284,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3254353"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1245367931513339975": {
+        "3254353": {
+            "ID": "3254353",
+            "nome": "COMBOS GOD HUMAN",
+            "quantidade": 1,
+            "valor": "4"
+        },
+        "status": "Gerenciando (2)",
+        "user": "903697815929229332",
+        "username": "progames3641",
+        "preco": 4,
+        "data": 1716989253430,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3254353"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1245419233681342546": {
+        "3245356": {
+            "ID": "3245356",
+            "nome": "GHM+MITICA+LV MAX",
+            "quantidade": 2,
+            "valor": "8.00"
+        },
+        "status": "Pagando com pix",
+        "user": "1240420577903378524",
+        "username": "ruan_lucas0280",
+        "preco": 8,
+        "data": 1717001485876,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3245356"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1245419567157608519": {
+        "3245356": {
+            "ID": "3245356",
+            "nome": "GHM+MITICA+LV MAX",
+            "quantidade": 1,
+            "valor": "4"
+        },
+        "status": "Entregue",
+        "user": "1240420577903378524",
+        "username": "ruan_lucas0280",
+        "preco": 4,
+        "data": 1717001564186,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3245356"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79358957598,
+        "entregue": [
+            "📦 | Entrega do Produto: GHM+MITICA+LV MAX - 1/1\nNome da conta:w0axlpk    Senha da conta:4634537B\n\n"
+        ]
+    },
+    "1245707792854159450": {
+        "3245356": {
+            "ID": "3245356",
+            "nome": "GHM+MITICA+LV MAX",
+            "quantidade": 2,
+            "valor": "8.00"
+        },
+        "status": "Entregue",
+        "user": "965969601546555393",
+        "username": "emmanuel3422",
+        "preco": 8,
+        "data": 1717070282971,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3245356"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79150164093,
+        "entregue": [
+            "📦 | Entrega do Produto: GHM+MITICA+LV MAX - 2/2\nNome da conta:anisnaicn3      Senha da conta:bloxfruit\nNome da conta:iaiiasaffa    Senha da conta:qAxPtRkUpB\n\n"
+        ]
+    },
+    "1245729709237469245": {
+        "3254353": {
+            "ID": "3254353",
+            "nome": "COMBOS GOD HUMAN",
+            "quantidade": 1,
+            "valor": "2.50"
+        },
+        "status": "Gerenciando (2)",
+        "user": "1183845085633331241",
+        "username": "void_da_berry",
+        "preco": 2.5,
+        "data": 1717075510142,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3254353"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1245729904306159688": {
+        "3254353": {
+            "ID": "3254353",
+            "nome": "COMBOS GOD HUMAN",
+            "quantidade": 1,
+            "valor": "2.5"
+        },
+        "status": "Gerenciando",
+        "user": "903697815929229332",
+        "username": "progames3641",
+        "preco": 0,
+        "data": 1717075554653,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3254353"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1245730605082218556": {
+        "3254353": {
+            "ID": "3254353",
+            "nome": "COMBOS GOD HUMAN",
+            "quantidade": 1,
+            "valor": "2.5"
+        },
+        "status": "Gerenciando",
+        "user": "1183845085633331241",
+        "username": "void_da_berry",
+        "preco": 0,
+        "data": 1717075722133,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3254353"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1245731200182779955": {
+        "3245356": {
+            "ID": "3245356",
+            "nome": "GHM+MITICA+LV MAX",
+            "quantidade": 1,
+            "valor": "4"
+        },
+        "status": "Pagando com pix",
+        "user": "1183845085633331241",
+        "username": "void_da_berry",
+        "preco": 4,
+        "data": 1717075863717,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3245356"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1245739714464714784": {
+        "3254353": {
+            "ID": "3254353",
+            "nome": "COMBOS GOD HUMAN",
+            "quantidade": 1,
+            "valor": "2.5"
+        },
+        "status": "Pagando com pix",
+        "user": "903697815929229332",
+        "username": "progames3641",
+        "preco": 2.5,
+        "data": 1717077893421,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3254353"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1245777465692000338": {
+        "3254353": {
+            "ID": "3254353",
+            "nome": "COMBOS GOD HUMAN",
+            "quantidade": 1,
+            "valor": "2.5"
+        },
+        "status": "Gerenciando",
+        "user": "903697815929229332",
+        "username": "progames3641",
+        "preco": 0,
+        "data": 1717086893892,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3254353"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1245778261942992977": {
+        "3245356": {
+            "ID": "3245356",
+            "nome": "GHM+MITICA+LV MAX",
+            "quantidade": 1,
+            "valor": "4"
+        },
+        "status": "Gerenciando",
+        "user": "758814092785483847",
+        "username": "br_gs",
+        "preco": 0,
+        "data": 1717087085009,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3245356"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1245819797170552852": {
+        "3254353": {
+            "ID": "3254353",
+            "nome": "COMBOS GOD HUMAN",
+            "quantidade": 1,
+            "valor": "2.5"
+        },
+        "status": "Gerenciando",
+        "user": "1225574671412367402",
+        "username": "black3211.",
+        "preco": 0,
+        "data": 1717096987484,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3254353"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1245912997738582127": {
+        "3254353": {
+            "ID": "3254353",
+            "nome": "COMBOS GOD HUMAN",
+            "quantidade": 1,
+            "valor": "2.50"
+        },
+        "status": "Pagando com site",
+        "user": "920645349943685210",
+        "username": "elefante112",
+        "preco": 2.5,
+        "data": 1717119208171,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3254353"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1245913381056282654": {
+        "3245356": {
+            "ID": "3245356",
+            "nome": "GHM+MITICA+LV MAX",
+            "quantidade": 1,
+            "valor": "4"
+        },
+        "status": "Pagando com pix",
+        "user": "920645349943685210",
+        "username": "elefante112",
+        "preco": 4,
+        "data": 1717119298587,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3245356"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1245949442947813467": {
+        "3245356": {
+            "ID": "3245356",
+            "nome": "GHM+MITICA+LV MAX",
+            "quantidade": 1,
+            "valor": "4"
+        },
+        "status": "Entregue",
+        "user": "1230651719743176814",
+        "username": "_luizxx.77",
+        "preco": 4,
+        "data": 1717127896916,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3245356"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79206767907,
+        "entregue": [
+            "📦 | Entrega do Produto: GHM+MITICA+LV MAX - 1/1\nNome da conta:cipmnaybyn   Senha da conta:lVxPiEuVyN\n\n"
+        ]
+    },
+    "1246192459411886161": {
+        "3245356": {
+            "ID": "3245356",
+            "nome": "GHM+MITICA+LV MAX",
+            "quantidade": 1,
+            "valor": "4"
+        },
+        "status": "Reembolsado",
+        "user": "920679620955746324",
+        "username": "slakkk9818",
+        "preco": 4,
+        "data": 1717185838871,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3245356"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79251648131,
+        "entregue": [
+            "📦 | Entrega do Produto: GHM+MITICA+LV MAX - 1/1\nNome da conta:ccimyiscma   Senha da conta:xWrCiVeGgL\n\n"
+        ]
+    },
+    "1246467689300496424": {
+        "3254353": {
+            "ID": "3254353",
+            "nome": "COMBOS GOD HUMAN",
+            "quantidade": 1,
+            "valor": "2.5"
+        },
+        "status": "Gerenciando",
+        "user": "1066441726669115473",
+        "username": "peppa_a",
+        "preco": 0,
+        "data": 1717251457574,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3254353"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1246468130767634452": {
+        "3245356": {
+            "ID": "3245356",
+            "nome": "GHM+MITICA+LV MAX",
+            "quantidade": 1,
+            "valor": "4.00"
+        },
+        "status": "Pagando com pix",
+        "user": "1066441726669115473",
+        "username": "peppa_a",
+        "preco": 4,
+        "data": 1717251561545,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "3245356"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": []
+    },
+    "1247150676803584094": {
+        "status": "Entregue",
+        "user": "1182466463425114223",
+        "username": "lczinn.unico",
+        "preco": 1.1,
+        "data": 1717414293815,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "nitro/m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79416828713,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Nitro Mensal - 10/10\nhttps://discord.com/billing/promotions/H7jmVNbnNt32mww6dBthQ32S\nhttps://discord.com/billing/promotions/HYxsAKwuAzZpGFWbDnvNrz3m\nhttps://discord.com/billing/promotions/HKbWKe8bBzHMSzx6RkQuVSt3\nhttps://discord.com/billing/promotions/HQHzMGG3zUvqKmhq2r7AqrWt\nhttps://discord.com/billing/promotions/HEwcw27AK66x6zHqPuPnBFpJ\nhttps://discord.com/billing/promotions/HYjwWkdaz2zVrVzD5etNyadX\nhttps://discord.com/billing/promotions/HFBTP44YsAvvE6sHN8bvRGXA\nhttps://discord.com/billing/promotions/HESEUW2BwvYDeMdXJgEwJSRG\nhttps://discord.com/billing/promotions/HTzn23bE6sPv4banUj9wUuNt\nhttps://discord.com/billing/promotions/HABWUpBVrU7DFw5Ks2EPPSgd\n\n"
+        ],
+        "nitro/m": {
+            "ID": "nitro/m",
+            "nome": "Nitro Mensal",
+            "quantidade": 10,
+            "valor": "1.10"
+        }
+    },
+    "1247189572249587712": {
+        "status": "Entregue",
+        "user": "1193325859281588275",
+        "username": "cortesio",
+        "preco": 0.99,
+        "data": 1717423568863,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "Nitrada/m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Nitrada mensal - 1/1\n7322190fdfacb5b78695f31a4ea70fca@firemail.com.br:vitor463442\n\n"
+        ],
+        "Nitrada/m": {
+            "ID": "Nitrada/m",
+            "nome": "Nitrada mensal",
+            "quantidade": 1,
+            "valor": "0.99"
+        }
+    },
+    "1247189584090107965": {
+        "status": "Reembolsado",
+        "user": "1234650347562205214",
+        "username": "insanity070110",
+        "preco": 0.99,
+        "data": 1717423569990,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "Nitrada/m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79426418123,
+        "entregue": [
+            "⚠️ | Falha ao entregar o Produto: Nitrada mensal, Quantidade: 1, Motivo: Estoque do produto esgotado!\n\n"
+        ],
+        "Nitrada/m": {
+            "ID": "Nitrada/m",
+            "nome": "Nitrada mensal",
+            "quantidade": 1,
+            "valor": "0.99"
+        }
+    },
+    "1247211023887237194": {
+        "status": "Entregue",
+        "user": "868584473753706507",
+        "username": "hasannzxl",
+        "preco": 1,
+        "data": 1717428683208,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "Paramount"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79433128759,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Paramount - 1/1\nTicket\n\n"
+        ],
+        "Paramount": {
+            "ID": "Paramount",
+            "nome": "Paramount",
+            "quantidade": 1,
+            "valor": "1.00"
+        }
+    },
+    "1247309317296623751": {
+        "status": "Entregue",
+        "user": "1236638902094401546",
+        "username": "0001i.",
+        "preco": 0.99,
+        "data": 1717452116031,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "Nitrada/m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79718455916,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Nitrada mensal - 1/1\nSantznitrada@firemail.com.br:alerra12\n\n"
+        ],
+        "Nitrada/m": {
+            "ID": "Nitrada/m",
+            "nome": "Nitrada mensal",
+            "quantidade": 1,
+            "valor": "0.99"
+        }
+    },
+    "1247396866786852945": {
+        "status": "Entregue",
+        "user": "1246349536310464532",
+        "username": "kndalealdadebb",
+        "preco": 0.99,
+        "data": 1717472990609,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "Nitrada/m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79738163094,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Nitrada mensal - 1/1\nd7b2b2882b648c2f186653a7c7d4428a@firemail.com.br:santificadastore22\n\n"
+        ],
+        "Nitrada/m": {
+            "ID": "Nitrada/m",
+            "nome": "Nitrada mensal",
+            "quantidade": 1,
+            "valor": "0.99"
+        }
+    },
+    "1247397708482871368": {
+        "status": "Entregue",
+        "user": "1193325859281588275",
+        "username": "cortesio",
+        "preco": 0.99,
+        "data": 1717473190460,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "Nitrada/m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Nitrada mensal - 1/1\n 53bc1e69d574198a2e12b8fe8d54d867@firemail.com.br:santificadastore22\n\n"
+        ],
+        "Nitrada/m": {
+            "ID": "Nitrada/m",
+            "nome": "Nitrada mensal",
+            "quantidade": 1,
+            "valor": "0.99"
+        }
+    },
+    "1247544456169783316": {
+        "status": "Pagando com pix",
+        "user": "527907829735227404",
+        "username": "nqqzz",
+        "preco": 1.65,
+        "data": 1717508178014,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "nitro/m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "nitro/m": {
+            "ID": "nitro/m",
+            "nome": "Nitro Trimensal",
+            "quantidade": 1,
+            "valor": "1.65"
+        }
+    },
+    "1247579405266452592": {
+        "status": "Entregue",
+        "user": "843558459931885612",
+        "username": "jotathewizzard",
+        "preco": 10.99,
+        "data": 1717516510507,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "nitro/g"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79507335959,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Nitro Gift Gaming - 1/1\nTicket\n\n"
+        ],
+        "nitro/g": {
+            "ID": "nitro/g",
+            "nome": "Nitro Gift Gaming",
+            "quantidade": 1,
+            "valor": "10.99"
+        }
+    },
+    "1247583961505468487": {
+        "status": "Entregue",
+        "user": "1237351295375900692",
+        "username": "xxxxxxxxxxjoaozzzzzzz",
+        "preco": 4.8,
+        "data": 1717517597428,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "token"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79508841609,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Token Para Div - 30/30\nODQ2NTU2NTE4OTUwMzcxMzg5.GCcA2c.UqSBcz2lfa1lQJslLA8Y5ERinHqu03B1gf6u2I\nODIyNjU4MzgzMTk0NjE5OTE2.G3BWjn.OBnEVREKSX1ywylXmIssC2-C1_S8n50QhMOxr8\nODM5OTM2ODc5Mzg1MTE2NzIz.GqdclI._QifFrIJtRyPOZL3r25YyCjM8BSuJwiU7kaQxM\nMTEwOTAzMzg2ODI1MTYzNTcyMg.Glunjo.2lZaxePxFEmXKY3zYT9beCHhZmekEIfMBempvc\nMTA2MDMyOTc4OTc2NTk4NDQwMg.G5X_0n.gRbBDV9xJhzovYU3_AgKPTVB7bJJ5E9whJpjXg\nMTE4ODE2ODE5NjU3NDk0OTQ1MQ.GVOpE2.Jwgmord4Ejwtl_z-DtPfxdm-DTE68XatRSi-Nc\nMTIwNzIwMjI1NzI1NTQwNzYyNg.GdZ76v.pYHaAO28689r-dh0I4wL8RDBgKgqfYHYECZu_8\nODMyNTgwODI5OTY0MTQwNTQ0.YQMA_g.4vEDWTL9CKyMw3a42AJSPKGXWEg\nNzA0ODExODU1NzA4OTQ2NTEz.GuUzyX.KVDUEaDvrLoQ2_Kkh1EPoJEzaRp9CnpGSo0Tl8\nODMyMTI1NDMzNjMzODMyOTgw.Gta_5H.sJisKtJMSEXS0W_0BHd8SVTdAqsZ5pHxVITn78\nNTg2MjEzNjA0NTU0OTY1MDA0.GG-wYJ.tLqRhm6Wesv64QW_-VTldlowowqYNjMjo2w7SQ\nMTAwNDE5Nzk4ODA2MDYzMTExMg.G3OIDw.m-K8SFPXtsyvsbO_MNm9dKcMv5PVp4CfKZi5Bg\nMjgwMDYxOTE1OTg2Nzg4MzUz.GVvmqp.tv3wKIgAvUZz_2xKN1N-DqgGLgwHb70kjwd28o\nOTU1OTYwNTgwMDg5NDYyODE1.GxGVRK.rq34TIsSPRtVlND50cd2qR0W04yKbqmTHr8JL4\nMTIwODg0MDI0ODA0MjQ1OTI3MQ.G-n-HR.QxthWR88m4Ug8DMihlqVxCq3gyiSpyp4b4bQNg\nMTIwMDE2NjEyODY2ODkwOTYzOA.GKgHGX.0n4SwTs6XMdxQ1YLonUJPTxho-GnuUNLrPr0fI\nNzg5Mjc4MDMzODk0NzAzMTI1.GRsvrF.iGYOI2idr9_fbQbFXKid1aJeP6iLOLxljGlTn8\nMTIxNzExMzI4MjMwNTk4NjYzNA.GB1YcT.maqd-bFhDHDYrW_AS6-tPNBRjaGK3YHg5PmaCo\nMTA3MjYyMzk4NTg1NjEwMjQ3Mg.Ga-rLf.oGVl3XYU2fEt0gS7WUKl08NWt_5GJmsQc0OzJA\nMTEyMjQwMTUwNTI3NDc3NzY4MA.G50DC_.asAhmp7n4zM9uvFW9Tsn4IZy9ybU0yfQK4C1og\nMTIzMjc2MDY5MzE3MDg5NjkzNg.G9gEzJ.NUcBSYezYxKr84NA9pGehK_vubOvDQp4wXxAUg\nMTAyMDA0MzI3NjY1ODY3MTY0Ng.GYvlrB.kRfhU95vAuat1cbtaakTV-CBUM0fU-UwI4PGLQ\nMTIzNDE4NjU1MTE5NDI5MjIyNw.GWIrJa.YGtujEL19XhzlhQEbhSF8An9Jm01xvK3BQY6bc\nMTE2NzgyMDIwODU3Mjk5NzY1Mw.GihOjC.Uqu6t_s35qtrPm4Bqy1fUAYARB5Ln8kvZgyTAE\nMTI0NDAxNDM5Njg5Mjc3ODU3Ng.GHWFgj.HwrT_XS3-AZhqyR1wF6inflMGGAC-x6Bk1yxhQ\nNTYyNTk2NTA0NjExODQ4MTk0.GA7Jln.DsoA-cP3u3j14hcKIs1I1NGIDE0RQAMWOtkVMU\nMTE1NDg1NDAyMzkwNDY0MTE2NA.GKlUD6.5CawM-rgedLa00XyjB1gbGlx51YFtDrckP8m2Q\nMTA0ODMxNDA2Mzg0MDYwODI5Ng.GrjgT3._GKG1xjstMJRuGvuXMy38G7p3osXyEnOp7kXBU\nMTA2OTAyOTM5MDE5OTA0MjE0OQ.Gmy5v_.lv10RySIWxEulNZepx8UZnT5RVzFMdSy2f0HRQ\nMTE4MTc1NDY4MDEzMzU3MDYyMQ.GXjRLZ.kMtiKiwrhAilWHEbbFk5G8X4pjvv11P6gzYpV4\n\n"
+        ],
+        "token": {
+            "ID": "token",
+            "nome": "Token Para Div",
+            "quantidade": 30,
+            "valor": "4.80"
+        }
+    },
+    "1247595591140249762": {
+        "status": "Entregue",
+        "user": "1066146898022498304",
+        "username": "lastraulzera",
+        "preco": 1.65,
+        "data": 1717520369689,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "nitro/m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79769457598,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Nitro Trimensal - 1/1\nabrir ticket para receber\n\n"
+        ],
+        "nitro/m": {
+            "ID": "nitro/m",
+            "nome": "Nitro Trimensal",
+            "quantidade": 1,
+            "valor": "1.65"
+        }
+    },
+    "1247715650206699583": {
+        "status": "Entregue",
+        "user": "1228871912394854420",
+        "username": "_raider777",
+        "preco": 1.28,
+        "data": 1717548996245,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "token"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79548771291,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Token Para Div - 8/8\nticket\nticket\nticket\nticket\nticket\nticket\nticket\nticket\n\n"
+        ],
+        "token": {
+            "ID": "token",
+            "nome": "Token Para Div",
+            "quantidade": 8,
+            "valor": "1.28"
+        }
+    },
+    "1247732616136884225": {
+        "status": "Reembolsado",
+        "user": "1140735836506296350",
+        "username": "zy.parzival",
+        "preco": 9.59,
+        "data": 1717553039109,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "impulsos"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79552394815,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: 14x impulsos - 1/1\nTicket\n\n"
+        ],
+        "impulsos": {
+            "ID": "impulsos",
+            "nome": "14x impulsos",
+            "quantidade": 1,
+            "valor": "9.59"
+        }
+    },
+    "1247746321067278349": {
+        "status": "Entregue",
+        "user": "1156620199466913925",
+        "username": "h4trem",
+        "preco": 0.81,
+        "data": 1717556307328,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "Nitrada/m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79554222927,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Nitrada mensal - 1/1\n10d1f661b695e21a7b38fefc8ef73721@firemail.com.br:sunstore1234\n\n"
+        ],
+        "Nitrada/m": {
+            "ID": "Nitrada/m",
+            "nome": "Nitrada mensal",
+            "quantidade": 1,
+            "valor": "0.81"
+        }
+    },
+    "1247746601775267891": {
+        "status": "Pagando",
+        "user": "1043174682582581259",
+        "username": "absolutenero.77",
+        "preco": 0.81,
+        "data": 1717556374392,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "Nitrada/m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "Nitrada/m": {
+            "ID": "Nitrada/m",
+            "nome": "Nitrada mensal",
+            "quantidade": 1,
+            "valor": "0.81"
+        }
+    },
+    "1247749087567155312": {
+        "status": "Gerenciando",
+        "user": "1228878830228344863",
+        "username": "yysilva7",
+        "preco": 0,
+        "data": 1717556966917,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "nitro/m"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "nitro/m": {
+            "ID": "nitro/m",
+            "nome": "Nitro Trimensal",
+            "quantidade": 1,
+            "valor": "1.65"
+        }
+    },
+    "1247749867783065630": {
+        "status": "Pagando com site",
+        "user": "1193325859281588275",
+        "username": "cortesio",
+        "preco": 2.24,
+        "data": 1717557151427,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "token"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "token": {
+            "ID": "token",
+            "nome": "Token Para Div",
+            "quantidade": 14,
+            "valor": "2.24"
+        }
+    },
+    "1247749986595373087": {
+        "status": "Entregue",
+        "user": "1193325859281588275",
+        "username": "cortesio",
+        "preco": 0.8,
+        "data": 1717557180162,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "token"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Token Para Div - 5/5\nvem pv\nvem pv\nvem pv\nvem pv\nvem pv\n\n"
+        ],
+        "token": {
+            "ID": "token",
+            "nome": "Token Para Div",
+            "quantidade": 5,
+            "valor": "0.80"
+        }
+    },
+    "1247932807368671317": {
+        "status": "Entregue",
+        "user": "1140735836506296350",
+        "username": "zy.parzival",
+        "preco": 9.59,
+        "data": 1717600767825,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "impulsos"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79581058751,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: 14x impulsos - 1/1\nJá sabe ne?\n\n"
+        ],
+        "impulsos": {
+            "ID": "impulsos",
+            "nome": "14x impulsos",
+            "quantidade": 1,
+            "valor": "9.59"
+        }
+    },
+    "1247996765198745724": {
+        "status": "Entregue",
+        "user": "1193325859281588275",
+        "username": "cortesio",
+        "preco": 4.95,
+        "data": 1717616016912,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "token/nitrada"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Token de Nitrada - 5/5\nticket\nticket\nticket\nticket\nticket\n\n"
+        ],
+        "token/nitrada": {
+            "ID": "token/nitrada",
+            "nome": "Token de Nitrada",
+            "quantidade": 5,
+            "valor": "4.95"
+        }
+    },
+    "1248046713718046802": {
+        "status": "Gerenciando",
+        "user": "758814092785483847",
+        "username": "br_gs",
+        "preco": 0,
+        "data": 1717627926150,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "nitro/m"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "nitro/m": {
+            "ID": "nitro/m",
+            "nome": "Nitro Trimensal",
+            "quantidade": 1,
+            "valor": "1.65"
+        }
+    },
+    "1248094319492206722": {
+        "status": "Entregue",
+        "user": "843558459931885612",
+        "username": "jotathewizzard",
+        "preco": 3.99,
+        "data": 1717639275519,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "Spotify/m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": 79890540236,
+        "entregue": [
+            "<:Caixa2:1199200378495975445> | Entrega do Produto: Spotify Mensal - 1/1\nticket\n\n"
+        ],
+        "Spotify/m": {
+            "ID": "Spotify/m",
+            "nome": "Spotify Mensal",
+            "quantidade": 1,
+            "valor": "3.99"
+        }
+    },
+    "1248107563841617932": {
+        "status": "Pagando com pix",
+        "user": "920420791739363369",
+        "username": "blitzinho.xp",
+        "preco": 3.99,
+        "data": 1717642434793,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "Spotify/m"
+        ],
+        "addprodutos": "nao",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "Spotify/m": {
+            "ID": "Spotify/m",
+            "nome": "Spotify Mensal",
+            "quantidade": 1,
+            "valor": "3.99"
+        }
+    },
+    "1250453946833703003": {
+        "status": "Pagando com pix",
+        "user": "1172699432668647553",
+        "username": "vtzin_v7",
+        "preco": 9.49,
+        "data": 1718201857552,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "nitro/g"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "nitro/g": {
+            "ID": "nitro/g",
+            "nome": "Nitro Gift Gaming",
+            "quantidade": 1,
+            "valor": "9.49"
+        },
+        "idmsg": "1250453968228843556"
+    },
+    "1250454328532275253": {
+        "status": "Pagando com pix",
+        "user": "1172699432668647553",
+        "username": "vtzin_v7",
+        "preco": 9.49,
+        "data": 1718201945454,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "nitro/g"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "nitro/g": {
+            "ID": "nitro/g",
+            "nome": "Nitro Gift Gaming",
+            "quantidade": 1,
+            "valor": "9.49"
+        },
+        "idmsg": "1250454336463568921"
+    },
+    "1250468249762660384": {
+        "status": "Pagando com pix",
+        "user": "1172699432668647553",
+        "username": "vtzin_v7",
+        "preco": 9.49,
+        "data": 1718205266255,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "nitro/g"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "nitro/g": {
+            "ID": "nitro/g",
+            "nome": "Nitro Gift Gaming",
+            "quantidade": 1,
+            "valor": "9.49"
+        },
+        "idmsg": "1250468264669216769"
+    },
+    "1250468334818824282": {
+        "status": "Pagando com site",
+        "user": "1172699432668647553",
+        "username": "vtzin_v7",
+        "preco": 9.49,
+        "data": 1718205284759,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "nitro/g"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "nitro/g": {
+            "ID": "nitro/g",
+            "nome": "Nitro Gift Gaming",
+            "quantidade": 1,
+            "valor": "9.49"
+        },
+        "idmsg": "1250468342666363081"
+    },
+    "1250468588712759481": {
+        "status": "Pagando com pix",
+        "user": "1172699432668647553",
+        "username": "vtzin_v7",
+        "preco": 9.49,
+        "data": 1718205345450,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "nitro/g"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "nitro/g": {
+            "ID": "nitro/g",
+            "nome": "Nitro Gift Gaming",
+            "quantidade": 1,
+            "valor": "9.49"
+        },
+        "idmsg": "1250468599072821249"
+    },
+    "1250586849705984093": {
+        "status": "Gerenciando",
+        "user": "527907829735227404",
+        "username": "dnrevoltado",
+        "preco": 0.05,
+        "data": 1718233543349,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "link/mensal"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "link/mensal": {
+            "ID": "link/mensal",
+            "nome": "0.05",
+            "quantidade": 1,
+            "valor": "0.05"
+        },
+        "idmsg": "1250586867297030180"
+    },
+    "1250586890126491762": {
+        "status": "Pagando com pix",
+        "user": "736272297383690250",
+        "username": "71redz",
+        "preco": 0.05,
+        "data": 1718233554656,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "link/mensal"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "link/mensal": {
+            "ID": "link/mensal",
+            "nome": "0.05",
+            "quantidade": 8,
+            "valor": "0.40"
+        },
+        "idmsg": "1250586914894118949"
+    },
+    "1250587233912881202": {
+        "status": "Pagando com site",
+        "user": "1248065773872615538",
+        "username": "newzada____",
+        "preco": 0.05,
+        "data": 1718233635055,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "link/mensal"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "link/mensal": {
+            "ID": "link/mensal",
+            "nome": "0.05",
+            "quantidade": 1,
+            "valor": "0.05"
+        },
+        "idmsg": "1250587252439122047"
+    },
+    "1250588673859260456": {
+        "status": "Pagando com pix",
+        "user": "1231594280699822082",
+        "username": "nweelwxzz",
+        "preco": 0.05,
+        "data": 1718233976523,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "link/mensal"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "link/mensal": {
+            "ID": "link/mensal",
+            "nome": "0.05",
+            "quantidade": 8,
+            "valor": "0.40"
+        },
+        "idmsg": "1250588684130979966"
+    },
+    "1250589286072586336": {
+        "status": "Entregue",
+        "user": "736272297383690250",
+        "username": "71redz",
+        "preco": 0.05,
+        "data": 1718234121855,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "link/mensal"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": 80184862771,
+        "entregue": [
+            "<:Caixa2:1249160157317824534> | Entrega do Produto: 0.05 - 8/8\nhttps://discord.com/billing/promotions/HWGCGtUsDbKvyNcxB8unZRQ2\nhttps://discord.com/billing/promotions/HA8cxz3GCQC23UqgSX754Bgz\nhttps://discord.com/billing/promotions/HVMsRS6DSuwWqpVEyZteu6SH\nhttps://discord.com/billing/promotions/HRCZSdPWT2mTMJgEwDdmPV3J\nhttps://discord.com/billing/promotions/HMpTUDMMcRgJFNyqkFv5jvjn\nhttps://discord.com/billing/promotions/HDpVAWfhzsmJYFrKMkFdHksh\nhttps://discord.com/billing/promotions/HBVT3cujXXJVyrmqekVm5Psp\nhttps://discord.com/billing/promotions/HTBpPPAeXSbKKuqHXVfwDw4m\n\n"
+        ],
+        "link/mensal": {
+            "ID": "link/mensal",
+            "nome": "0.05",
+            "quantidade": 8,
+            "valor": "0.40"
+        },
+        "idmsg": "1250589293139726442"
+    },
+    "1251537384739180678": {
+        "status": "Pagando com pix",
+        "user": "1249498351028801606",
+        "username": "menorperigo",
+        "preco": 10,
+        "data": 1718460148666,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "aa"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "aa": {
+            "ID": "aa",
+            "nome": "Não configurado",
+            "quantidade": 1,
+            "valor": 10
+        },
+        "idmsg": "1251537392159035520"
+    },
+    "1251540792309321870": {
+        "status": "Entregue",
+        "user": "1249498351028801606",
+        "username": "menorperigo",
+        "preco": 10,
+        "data": 1718460960816,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "b"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [
+            "<:Caixa2:1249160157317824534> | Entrega do Produto: Não configurado - 1/1\ndaw\n\n"
+        ],
+        "b": {
+            "ID": "b",
+            "nome": "Não configurado",
+            "quantidade": 1,
+            "valor": 10
+        },
+        "idmsg": "1251540798571286654"
+    },
+    "1251541315775234099": {
+        "status": "Entregue",
+        "user": "1249498351028801606",
+        "username": "menorperigo",
+        "preco": 10,
+        "data": 1718461085840,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "b"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [
+            "<:Caixa2:1249160157317824534> | Entrega do Produto: Não configurado - 1/1\nddaw\n\n"
+        ],
+        "b": {
+            "ID": "b",
+            "nome": "Não configurado",
+            "quantidade": 1,
+            "valor": 10
+        },
+        "idmsg": "1251541323102552109"
+    },
+    "1251543835100582065": {
+        "status": "Pagando com pix",
+        "user": "1249498351028801606",
+        "username": "menorperigo",
+        "preco": 10,
+        "data": 1718461695695,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "bb"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "bb": {
+            "ID": "bb",
+            "nome": "Não configurado",
+            "quantidade": 1,
+            "valor": 10
+        },
+        "idmsg": "1251543883192729697"
+    },
+    "1253454357374959646": {
+        "status": "Gerenciando",
+        "user": "1009190531739435008",
+        "username": "augustozxx",
+        "preco": 10.5,
+        "data": 1718917207868,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "nitro/g"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "nitro/g": {
+            "ID": "nitro/g",
+            "nome": "Nitro Gift Gaming",
+            "quantidade": 1,
+            "valor": "10.50"
+        },
+        "idmsg": "1253454381760905256"
+    },
+    "1253456198078828656": {
+        "status": "Pagando",
+        "user": "1172699432668647553",
+        "username": "vtzin_v7",
+        "preco": 10.5,
+        "data": 1718917645860,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "nitro/g"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "nitro/g": {
+            "ID": "nitro/g",
+            "nome": "Nitro Gift Gaming",
+            "quantidade": 1,
+            "valor": "10.50"
+        },
+        "idmsg": "1253456215246114857"
+    },
+    "1253497742123208787": {
+        "status": "Pagando com pix",
+        "user": "932096993315155998",
+        "username": "menorpeciinha",
+        "preco": 3.85,
+        "data": 1718927549667,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "Nitrada/m"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "Nitrada/m": {
+            "ID": "Nitrada/m",
+            "nome": "N1trad4 Trimensal",
+            "quantidade": 1,
+            "valor": "3.85"
+        },
+        "idmsg": "1253497756329447456"
+    },
+    "1253498800786640936": {
+        "status": "Entregue",
+        "user": "932096993315155998",
+        "username": "menorpeciinha",
+        "preco": 7.7,
+        "data": 1718927800283,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "Nitrada/m"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": 80765991447,
+        "entregue": [
+            "<:seguranca:1250607331537060021> | Entrega do Produto: N1trad4 Trimensal - 2/2\nPv do vt\nPv do vt\n\n"
+        ],
+        "Nitrada/m": {
+            "ID": "Nitrada/m",
+            "nome": "N1trad4 Trimensal",
+            "quantidade": 2,
+            "valor": "7.70"
+        },
+        "idmsg": "1253498807484682271"
+    },
+    "1253499058904105031": {
+        "status": "Entregue",
+        "user": "1084688076288303214",
+        "username": "dannnnnnnnnnnndannnnnnnnnnnnnnn",
+        "preco": 1.99,
+        "data": 1718927864262,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "nitro/m"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": 81029181156,
+        "entregue": [
+            "<:seguranca:1250607331537060021> | Entrega do Produto: Nitr0 Tri - 1/1\nPv do vt\n\n"
+        ],
+        "nitro/m": {
+            "ID": "nitro/m",
+            "nome": "Nitr0 Tri",
+            "quantidade": 1,
+            "valor": "1.99"
+        },
+        "idmsg": "1253499075538456677"
+    },
+    "1253694919604830393": {
+        "status": "Entregue",
+        "user": "1186457188315701268",
+        "username": "p4ss1onate",
+        "preco": 10.5,
+        "data": 1718974560061,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "nitro/g"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": 80787329943,
+        "entregue": [
+            "<:seguranca:1250607331537060021> | Entrega do Produto: Nitro Gift Gaming - 1/1\nTicket ou pv\n\n"
+        ],
+        "nitro/g": {
+            "ID": "nitro/g",
+            "nome": "Nitro Gift Gaming",
+            "quantidade": 1,
+            "valor": "10.50"
+        },
+        "idmsg": "1253694934670643240"
+    },
+    "1253806535327354882": {
+        "status": "Pagando com pix",
+        "user": "1232448997403398320",
+        "username": "kamzerozinop",
+        "preco": 0.99,
+        "data": 1719001170169,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "ativaçã0"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "ativaçã0": {
+            "ID": "ativaçã0",
+            "nome": "Ativaçã0",
+            "quantidade": 1,
+            "valor": "0.99"
+        },
+        "idmsg": "1253806546417094788"
+    },
+    "1253852314704285787": {
+        "status": "Pagando com site",
+        "user": "1210987523019374592",
+        "username": "dv2m",
+        "preco": 2.86,
+        "data": 1719012085262,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "gift/b"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "gift/b": {
+            "ID": "gift/b",
+            "nome": "Nitr0 Gift Basic",
+            "quantidade": 1,
+            "valor": "2.86"
+        },
+        "idmsg": "1253852327694307482"
+    },
+    "1253852476638101624": {
+        "status": "Pagando com pix",
+        "user": "1210987523019374592",
+        "username": "dv2m",
+        "preco": 2.86,
+        "data": 1719012123163,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "gift/b"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [],
+        "gift/b": {
+            "ID": "gift/b",
+            "nome": "Nitr0 Gift Basic",
+            "quantidade": 1,
+            "valor": "2.86"
+        },
+        "idmsg": "1253852486423547924"
+    },
+    "1253911680304545845": {
+        "status": "Entregue",
+        "user": "1095204158656757840",
+        "username": "marcos.vn_",
+        "preco": 2.86,
+        "data": 1719026243163,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "gift/b"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": 81109203510,
+        "entregue": [
+            "<:seguranca:1250607331537060021> | Entrega do Produto: Nitr0 Gift Basic - 1/1\nhttps://discord.gift/WgSbn4Hf8WBxCTAm\n\n"
+        ],
+        "gift/b": {
+            "ID": "gift/b",
+            "nome": "Nitr0 Gift Basic",
+            "quantidade": 1,
+            "valor": "2.86"
+        },
+        "idmsg": "1253911710356733994"
+    },
+    "1377682328419307570": {
+        "status": "Entregue",
+        "user": "534773316938891273",
+        "username": "felipegnc13",
+        "preco": 10,
+        "data": 1748535465239,
+        "pagamento": "Pix",
+        "cupomutilizado": "Nenhum",
+        "valorcupom": 0,
+        "produtos": [
+            "teste"
+        ],
+        "addprodutos": "sim",
+        "avaliou": "nao",
+        "idreembolso": "sem",
+        "entregue": [
+            "<:seguranca:1250607331537060021> | Entrega do Produto: Não configurado - 1/1\naa\n\n"
+        ],
+        "teste": {
+            "ID": "teste",
+            "nome": "Não configurado",
+            "quantidade": 1,
+            "valor": 10
+        },
+        "idmsg": "1377682338418397314"
+    }
+}

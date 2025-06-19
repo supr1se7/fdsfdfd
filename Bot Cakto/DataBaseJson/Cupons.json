@@ -1,0 +1,16 @@
+{
+    "samuel": {
+        "nome": "samuel",
+        "porcentagem": 99,
+        "valormin": 0.1,
+        "quantidade": 1,
+        "cargo": "todos"
+    },
+    "LOJA FROSTZIN": {
+        "nome": "LOJA FROSTZIN",
+        "porcentagem": 10,
+        "valormin": 3.8,
+        "quantidade": 35,
+        "cargo": "todos"
+    }
+}

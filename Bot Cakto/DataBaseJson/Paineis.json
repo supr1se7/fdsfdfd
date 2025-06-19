@@ -1,0 +1,90 @@
+{
+    "98854212": {
+        "titulo": "COMBOS V4",
+        "desc": "```✅ | Combos GHM\n✅ | RAÇA V4\n✅ | CDK 30%\n✅ | SG 45%\n✅ | 100% Automatico\n✅ | 100% Rembolso caso algo errado na acc```",
+        "rodape": "null",
+        "placeholder": "Selecione um Produto",
+        "cor": "#090b0c",
+        "banner": "https://cdn.discordapp.com/attachments/1232730596128854147/1233236929961529475/1714096956474.png?ex=665735a4&is=6655e424&hm=05267a82f305ead320632fd37c686f382d173f78dff77dc012be114076a302e2&",
+        "thumb": "https://cdn.discordapp.com/attachments/1232730596128854147/1233236921111810140/1714096957758.png?ex=665735a2&is=6655e422&hm=d0315f59e228a75962565e56675276b874fe735c571d1292b00ceb89c317b818&",
+        "idmsg": "1245413889793855501",
+        "idcanal": "1233114183806091367",
+        "produtos": [
+            "9886543",
+            "124395943"
+        ]
+    },
+    "231231321": {
+        "titulo": "FLASH STORE (AUTO) | Produto",
+        "desc": "✅ | Godhuman\n✅ | Nivel maximo\n✅ | 100% Automatico\n✅ | 100% Rembolso caso algo errado na acc",
+        "rodape": "null",
+        "placeholder": "FLASH STORE (AUTO) | Produto",
+        "cor": "#000000",
+        "banner": "https://cdn.discordapp.com/attachments/1240107935527469117/1243353725196828834/1716508982924.png?ex=665719a4&is=6655c824&hm=8c2ea1606b7fc421a62fd6d25dfb6e9595449dd936153a4e2bdabbacc93283b6&",
+        "thumb": "https://media.discordapp.net/attachments/1232730596128854147/1233236921111810140/1714096957758.png?ex=665735a2&is=6655e422&hm=d0315f59e228a75962565e56675276b874fe735c571d1292b00ceb89c317b818&",
+        "idmsg": "1244727441663070210",
+        "idcanal": "1232736249865965718",
+        "produtos": [
+            "1948524334"
+        ]
+    },
+    "352323245": {
+        "titulo": "DOUGH V1 OU V2 COMBOS",
+        "desc": "```✅ | Combos GHM\n✅ | DOUGH V2 OU DOUGH V1 100%\n✅ | CDK 100%\n✅ | SG 100%\n✅ | 100% Automatico\n✅ | 100% Rembolso caso algo errado na acc```",
+        "rodape": "null",
+        "placeholder": "Selecione um Produto",
+        "cor": "#090b0c",
+        "banner": "https://cdn.discordapp.com/attachments/1232730596128854147/1233236929961529475/1714096956474.png?ex=665735a4&is=6655e424&hm=05267a82f305ead320632fd37c686f382d173f78dff77dc012be114076a302e2&",
+        "thumb": "https://cdn.discordapp.com/attachments/1232730596128854147/1233236921111810140/1714096957758.png?ex=665735a2&is=6655e422&hm=d0315f59e228a75962565e56675276b874fe735c571d1292b00ceb89c317b818&",
+        "idmsg": "1245052782978011209",
+        "idcanal": "1233114183806091367",
+        "produtos": [
+            "234325865"
+        ]
+    },
+    "354563535": {
+        "titulo": "FLASH STORE (AUTO) | Produto",
+        "desc": "COMBOS GOD HUMAN",
+        "rodape": "null",
+        "placeholder": "Selecione um Produto",
+        "cor": "#090b0c",
+        "banner": "null",
+        "thumb": "null",
+        "idmsg": "1244844122213322866",
+        "idcanal": "1233114183806091367",
+        "produtos": [
+            "2941948285"
+        ]
+    },
+    "465354345": {
+        "titulo": "FLASH STORE (AUTO) | Produto GHM",
+        "desc": "```✅ |Combos GHM\n✅ | 100% Automatico\n✅ | 100% Rembolso caso algo errado na acc}```",
+        "rodape": "null",
+        "placeholder": "Selecione um Produto",
+        "cor": "#000000",
+        "banner": "https://cdn.discordapp.com/attachments/1240107935527469117/1243353725196828834/1716508982924.png?ex=665719a4&is=6655c824&hm=8c2ea1606b7fc421a62fd6d25dfb6e9595449dd936153a4e2bdabbacc93283b6&",
+        "thumb": "https://media.discordapp.net/attachments/1232730596128854147/1233236921111810140/1714096957758.png?ex=665735a2&is=6655e422&hm=d0315f59e228a75962565e56675276b874fe735c571d1292b00ceb89c317b818&",
+        "idmsg": "1245026197113540705",
+        "idcanal": "1233114183806091367",
+        "produtos": [
+            "3254353",
+            "3245356"
+        ]
+    },
+    "nitradas": {
+        "titulo": "Nitradas",
+        "desc": "- Nitrada trimensal \n- nitrada mensal \n- token de Nitrada (mensal)",
+        "rodape": "null",
+        "placeholder": "Selecione um Produto",
+        "cor": "#090b0c",
+        "banner": "https://cdn.discordapp.com/attachments/1242843632181186683/1247912473743462400/1717378906057.png?ex=6661c08e&is=66606f0e&hm=8680a2be44e2cab901f67260887e7aa93cf96e1bda44e79821ba8db9b16ffa70&",
+        "thumb": "null",
+        "idmsg": "1247912641142456464",
+        "idcanal": "1242843627307139155",
+        "produtos": [
+            "Nitrada/tri",
+            "Nitrada/m",
+            "token/nitrada"
+        ]
+    }
+}

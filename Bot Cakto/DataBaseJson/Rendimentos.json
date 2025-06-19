@@ -1,0 +1,80 @@
+{
+    "pedidostotal": 53,
+    "gastostotal": 214.89000000000001,
+    "05/19/2024": {
+        "pedidos": 1,
+        "recebimentos": 0.79
+    },
+    "05/22/2024": {
+        "pedidos": 6,
+        "recebimentos": 10.310000000000002
+    },
+    "05/23/2024": {
+        "pedidos": 6,
+        "recebimentos": 13.18
+    },
+    "05/24/2024": {
+        "pedidos": 7,
+        "recebimentos": 37.01
+    },
+    "05/26/2024": {
+        "pedidos": 1,
+        "recebimentos": 4.5
+    },
+    "05/27/2024": {
+        "pedidos": 1,
+        "recebimentos": 1
+    },
+    "05/28/2024": {
+        "pedidos": 2,
+        "recebimentos": 19.5
+    },
+    "05/29/2024": {
+        "pedidos": 1,
+        "recebimentos": 4
+    },
+    "05/30/2024": {
+        "pedidos": 1,
+        "recebimentos": 8
+    },
+    "05/31/2024": {
+        "pedidos": 2,
+        "recebimentos": 8
+    },
+    "06/03/2024": {
+        "pedidos": 5,
+        "recebimentos": 5.07
+    },
+    "06/04/2024": {
+        "pedidos": 7,
+        "recebimentos": 30.29
+    },
+    "06/05/2024": {
+        "pedidos": 5,
+        "recebimentos": 20.14
+    },
+    "06/12/2024": {
+        "pedidos": 1,
+        "recebimentos": 0.05
+    },
+    "06/15/2024": {
+        "pedidos": 2,
+        "recebimentos": 20
+    },
+    "06/20/2024": {
+        "pedidos": 2,
+        "recebimentos": 9.69
+    },
+    "06/21/2024": {
+        "pedidos": 1,
+        "recebimentos": 10.5
+    },
+    "06/22/2024": {
+        "pedidos": 1,
+        "recebimentos": 2.86
+    },
+    "05/29/2025": {
+        "pedidos": 1,
+        "recebimentos": 10
+    }
+}

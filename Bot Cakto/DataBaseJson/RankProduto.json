@@ -1,0 +1,86 @@
+{
+    "2": {
+        "totalganho": 1,
+        "totalvendas": 1
+    },
+    "3245356": {
+        "totalganho": 26.5,
+        "totalvendas": 6
+    },
+    "234325865": {
+        "totalganho": 13,
+        "totalvendas": 1
+    },
+    "trimensal": {
+        "totalganho": 0.79,
+        "totalvendas": 1
+    },
+    "virgem": {
+        "totalganho": 14.700000000000001,
+        "totalvendas": 32
+    },
+    "Nitrada/m": {
+        "totalganho": 18.01,
+        "totalvendas": 13
+    },
+    "spotify3m": {
+        "totalganho": 15.08,
+        "totalvendas": 4
+    },
+    "nitro/m": {
+        "totalganho": 4.92,
+        "totalvendas": 14
+    },
+    "gift": {
+        "totalganho": 9,
+        "totalvendas": 3
+    },
+    "Minecraft": {
+        "totalganho": 16.99,
+        "totalvendas": 1
+    },
+    "netflix": {
+        "totalganho": 4.5,
+        "totalvendas": 1
+    },
+    "Paramount": {
+        "totalganho": 1,
+        "totalvendas": 1
+    },
+    "nitro/g": {
+        "totalganho": 21.490000000000002,
+        "totalvendas": 2
+    },
+    "token": {
+        "totalganho": 6.88,
+        "totalvendas": 43
+    },
+    "impulsos": {
+        "totalganho": 19.18,
+        "totalvendas": 2
+    },
+    "token/nitrada": {
+        "totalganho": 4.95,
+        "totalvendas": 5
+    },
+    "Spotify/m": {
+        "totalganho": 3.99,
+        "totalvendas": 1
+    },
+    "link/mensal": {
+        "totalganho": 0.05,
+        "totalvendas": 8
+    },
+    "b": {
+        "totalganho": 20,
+        "totalvendas": 2
+    },
+    "gift/b": {
+        "totalganho": 2.86,
+        "totalvendas": 1
+    },
+    "teste": {
+        "totalganho": 10,
+        "totalvendas": 1
+    }
+}
