@@ -1,109 +1,131 @@
-import { db } from "./db";
-import { users, plans, subscriptions, botConfigs, type User, type Plan, type Subscription, type BotConfig, type InsertUser, type InsertPlan, type InsertSubscription, type InsertBotConfig } from "../shared/schema";
-import { eq, and } from "drizzle-orm";
-import bcrypt from "bcryptjs";
+import { users, botConfigs, transactions, type User, type InsertUser, type BotConfig, type InsertBotConfig, type Transaction, type InsertTransaction } from "@shared/schema";
 
 export interface IStorage {
-  // User operations
-  createUser(user: InsertUser): Promise<User>;
+  // User methods
+  getUser(id: number): Promise<User | undefined>;
   getUserByEmail(email: string): Promise<User | undefined>;
-  getUserById(id: number): Promise<User | undefined>;
-  verifyPassword(email: string, password: string): Promise<User | undefined>;
-  
-  // Plan operations
-  getPlans(): Promise<Plan[]>;
-  getPlanById(id: number): Promise<Plan | undefined>;
-  createPlan(plan: InsertPlan): Promise<Plan>;
-  
-  // Subscription operations
-  getUserSubscriptions(userId: number): Promise<Subscription[]>;
-  createSubscription(subscription: InsertSubscription): Promise<Subscription>;
-  getSubscriptionById(id: number): Promise<Subscription | undefined>;
-  
-  // Bot Config operations
-  getBotConfigs(userId: number): Promise<BotConfig[]>;
-  createBotConfig(config: InsertBotConfig): Promise<BotConfig>;
-  updateBotConfig(id: number, config: Partial<BotConfig>): Promise<BotConfig>;
-  deleteBotConfig(id: number): Promise<void>;
+  createUser(user: InsertUser): Promise<User>;
+  updateUser(id: number, updates: Partial<User>): Promise<User | undefined>;
+
+  // Bot config methods
+  getBotConfig(userId: number, planType: string): Promise<BotConfig | undefined>;
+  createBotConfig(config: InsertBotConfig & { userId: number }): Promise<BotConfig>;
+  updateBotConfig(id: number, updates: Partial<BotConfig>): Promise<BotConfig | undefined>;
+  getBotConfigsByUser(userId: number): Promise<BotConfig[]>;
+
+  // Transaction methods
+  createTransaction(transaction: InsertTransaction & { userId: number }): Promise<Transaction>;
+  getTransactionsByUser(userId: number): Promise<Transaction[]>;
+  updateTransaction(id: number, updates: Partial<Transaction>): Promise<Transaction | undefined>;
 }
 
-export class DatabaseStorage implements IStorage {
-  async createUser(userData: InsertUser): Promise<User> {
-    const hashedPassword = await bcrypt.hash(userData.password, 10);
-    const [user] = await db
-      .insert(users)
-      .values({ ...userData, password: hashedPassword })
-      .returning();
-    return user;
+export class MemStorage implements IStorage {
+  private users: Map<number, User>;
+  private botConfigs: Map<number, BotConfig>;
+  private transactions: Map<number, Transaction>;
+  private currentUserId: number;
+  private currentBotConfigId: number;
+  private currentTransactionId: number;
+
+  constructor() {
+    this.users = new Map();
+    this.botConfigs = new Map();
+    this.transactions = new Map();
+    this.currentUserId = 1;
+    this.currentBotConfigId = 1;
+    this.currentTransactionId = 1;
+  }
+
+  async getUser(id: number): Promise<User | undefined> {
+    return this.users.get(id);
   }
 
   async getUserByEmail(email: string): Promise<User | undefined> {
-    const [user] = await db.select().from(users).where(eq(users.email, email));
+    return Array.from(this.users.values()).find(user => user.email === email);
+  }
+
+  async createUser(insertUser: InsertUser): Promise<User> {
+    const id = this.currentUserId++;
+    const user: User = {
+      ...insertUser,
+      id,
+      planType: null,
+      planActive: false,
+      createdAt: new Date(),
+    };
+    this.users.set(id, user);
     return user;
   }
 
-  async getUserById(id: number): Promise<User | undefined> {
-    const [user] = await db.select().from(users).where(eq(users.id, id));
-    return user;
-  }
-
-  async verifyPassword(email: string, password: string): Promise<User | undefined> {
-    const user = await this.getUserByEmail(email);
+  async updateUser(id: number, updates: Partial<User>): Promise<User | undefined> {
+    const user = this.users.get(id);
     if (!user) return undefined;
     
-    const isValid = await bcrypt.compare(password, user.password);
-    return isValid ? user : undefined;
+    const updatedUser = { ...user, ...updates };
+    this.users.set(id, updatedUser);
+    return updatedUser;
   }
 
-  async getPlans(): Promise<Plan[]> {
-    return await db.select().from(plans).where(eq(plans.isActive, true));
+  async getBotConfig(userId: number, planType: string): Promise<BotConfig | undefined> {
+    return Array.from(this.botConfigs.values()).find(
+      config => config.userId === userId && config.planType === planType
+    );
   }
 
-  async getPlanById(id: number): Promise<Plan | undefined> {
-    const [plan] = await db.select().from(plans).where(eq(plans.id, id));
-    return plan;
+  async createBotConfig(config: InsertBotConfig & { userId: number }): Promise<BotConfig> {
+    const id = this.currentBotConfigId++;
+    const botConfig: BotConfig = {
+      ...config,
+      id,
+      botStatus: "offline",
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    };
+    this.botConfigs.set(id, botConfig);
+    return botConfig;
   }
 
-  async createPlan(planData: InsertPlan): Promise<Plan> {
-    const [plan] = await db.insert(plans).values(planData).returning();
-    return plan;
+  async updateBotConfig(id: number, updates: Partial<BotConfig>): Promise<BotConfig | undefined> {
+    const config = this.botConfigs.get(id);
+    if (!config) return undefined;
+    
+    const updatedConfig = { ...config, ...updates, updatedAt: new Date() };
+    this.botConfigs.set(id, updatedConfig);
+    return updatedConfig;
   }
 
-  async getUserSubscriptions(userId: number): Promise<Subscription[]> {
-    return await db.select().from(subscriptions).where(eq(subscriptions.userId, userId));
+  async getBotConfigsByUser(userId: number): Promise<BotConfig[]> {
+    return Array.from(this.botConfigs.values()).filter(
+      config => config.userId === userId
+    );
   }
 
-  async createSubscription(subscriptionData: InsertSubscription): Promise<Subscription> {
-    const [subscription] = await db.insert(subscriptions).values(subscriptionData).returning();
-    return subscription;
+  async createTransaction(transaction: InsertTransaction & { userId: number }): Promise<Transaction> {
+    const id = this.currentTransactionId++;
+    const txn: Transaction = {
+      ...transaction,
+      id,
+      status: "pending",
+      createdAt: new Date(),
+    };
+    this.transactions.set(id, txn);
+    return txn;
   }
 
-  async getSubscriptionById(id: number): Promise<Subscription | undefined> {
-    const [subscription] = await db.select().from(subscriptions).where(eq(subscriptions.id, id));
-    return subscription;
+  async getTransactionsByUser(userId: number): Promise<Transaction[]> {
+    return Array.from(this.transactions.values()).filter(
+      txn => txn.userId === userId
+    );
   }
 
-  async getBotConfigs(userId: number): Promise<BotConfig[]> {
-    return await db.select().from(botConfigs).where(eq(botConfigs.userId, userId));
-  }
-
-  async createBotConfig(configData: InsertBotConfig): Promise<BotConfig> {
-    const [config] = await db.insert(botConfigs).values(configData).returning();
-    return config;
-  }
-
-  async updateBotConfig(id: number, configData: Partial<BotConfig>): Promise<BotConfig> {
-    const [config] = await db
-      .update(botConfigs)
-      .set({ ...configData, updatedAt: new Date() })
-      .where(eq(botConfigs.id, id))
-      .returning();
-    return config;
-  }
-
-  async deleteBotConfig(id: number): Promise<void> {
-    await db.delete(botConfigs).where(eq(botConfigs.id, id));
+  async updateTransaction(id: number, updates: Partial<Transaction>): Promise<Transaction | undefined> {
+    const transaction = this.transactions.get(id);
+    if (!transaction) return undefined;
+    
+    const updatedTransaction = { ...transaction, ...updates };
+    this.transactions.set(id, updatedTransaction);
+    return updatedTransaction;
   }
 }
 
-export const storage = new DatabaseStorage();
+export const storage = new MemStorage();

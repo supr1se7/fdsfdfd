@@ -1,36 +1,32 @@
-import React from 'react';
-import { Router, Route, Switch } from 'wouter';
-import { useAuth } from './hooks/useAuth';
-import LandingPage from './pages/LandingPage';
-import Dashboard from './pages/Dashboard';
-import Plans from './pages/Plans';
-import Login from './pages/Login';
-import Register from './pages/Register';
+import { Switch, Route } from "wouter";
+import { queryClient } from "./lib/queryClient";
+import { QueryClientProvider } from "@tanstack/react-query";
+import { Toaster } from "@/components/ui/toaster";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import Home from "@/pages/home";
+import Dashboard from "@/pages/dashboard";
+import NotFound from "@/pages/not-found";
+
+function Router() {
+  return (
+    <Switch>
+      <Route path="/" component={Home} />
+      <Route path="/dashboard" component={Dashboard} />
+      <Route component={NotFound} />
+    </Switch>
+  );
+}
 
 function App() {
-  const { user, isLoading } = useAuth();
-
-  if (isLoading) {
-    return (
-      <div className="min-h-screen bg-deep-black flex items-center justify-center">
-        <div className="animate-spin w-12 h-12 border-4 border-neon-red border-t-transparent rounded-full"></div>
-      </div>
-    );
-  }
-
   return (
-    <div className="min-h-screen bg-deep-black text-white">
-      <Router>
-        <Switch>
-          <Route path="/" component={user ? Dashboard : LandingPage} />
-          <Route path="/plans" component={Plans} />
-          <Route path="/login" component={Login} />
-          <Route path="/register" component={Register} />
-          <Route path="/dashboard" component={Dashboard} />
-          <Route component={() => <div className="text-center p-8">Página não encontrada</div>} />
-        </Switch>
-      </Router>
-    </div>
+    <QueryClientProvider client={queryClient}>
+      <TooltipProvider>
+        <div className="dark">
+          <Toaster />
+          <Router />
+        </div>
+      </TooltipProvider>
+    </QueryClientProvider>
   );
 }
 

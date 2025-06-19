@@ -1,67 +1,63 @@
-import { pgTable, serial, text, varchar, timestamp, integer, boolean, jsonb } from "drizzle-orm/pg-core";
+import { pgTable, text, serial, integer, boolean, timestamp } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
-// Usuários
 export const users = pgTable("users", {
   id: serial("id").primaryKey(),
-  email: varchar("email", { length: 255 }).unique().notNull(),
-  username: varchar("username", { length: 100 }).unique().notNull(),
-  password: varchar("password", { length: 255 }).notNull(),
-  discordId: varchar("discord_id", { length: 100 }).unique(),
-  avatar: text("avatar"),
+  email: text("email").notNull().unique(),
+  password: text("password").notNull(),
+  name: text("name").notNull(),
+  planType: text("plan_type").$type<"tickets" | "sales" | "moderation" | null>(),
+  planActive: boolean("plan_active").default(false),
   createdAt: timestamp("created_at").defaultNow(),
 });
 
-// Planos disponíveis
-export const plans = pgTable("plans", {
-  id: serial("id").primaryKey(),
-  name: varchar("name", { length: 100 }).notNull(),
-  description: text("description"),
-  price: integer("price").notNull(), // em centavos
-  features: text("features").array(),
-  botType: varchar("bot_type", { length: 50 }).notNull(), // 'ticket', 'sales', 'moderation'
-  isActive: boolean("is_active").default(true),
-  createdAt: timestamp("created_at").defaultNow(),
-});
-
-// Assinaturas dos usuários
-export const subscriptions = pgTable("subscriptions", {
-  id: serial("id").primaryKey(),
-  userId: integer("user_id").references(() => users.id).notNull(),
-  planId: integer("plan_id").references(() => plans.id).notNull(),
-  isActive: boolean("is_active").default(true),
-  expiresAt: timestamp("expires_at"),
-  createdAt: timestamp("created_at").defaultNow(),
-});
-
-// Configurações dos bots
 export const botConfigs = pgTable("bot_configs", {
   id: serial("id").primaryKey(),
   userId: integer("user_id").references(() => users.id).notNull(),
-  subscriptionId: integer("subscription_id").references(() => subscriptions.id).notNull(),
-  serverId: varchar("server_id", { length: 100 }).notNull(),
-  serverName: varchar("server_name", { length: 255 }),
-  botType: varchar("bot_type", { length: 50 }).notNull(),
-  config: jsonb("config").notNull(), // Configurações específicas do bot
-  isActive: boolean("is_active").default(true),
+  planType: text("plan_type").$type<"tickets" | "sales" | "moderation">().notNull(),
+  botToken: text("bot_token"),
+  botStatus: text("bot_status").$type<"online" | "offline" | "error">().default("offline"),
+  config: text("config"), // JSON string for bot-specific configuration
   createdAt: timestamp("created_at").defaultNow(),
   updatedAt: timestamp("updated_at").defaultNow(),
 });
 
-// Schemas de inserção
-export const insertUserSchema = createInsertSchema(users).omit({ id: true, createdAt: true });
-export const insertPlanSchema = createInsertSchema(plans).omit({ id: true, createdAt: true });
-export const insertSubscriptionSchema = createInsertSchema(subscriptions).omit({ id: true, createdAt: true });
-export const insertBotConfigSchema = createInsertSchema(botConfigs).omit({ id: true, createdAt: true, updatedAt: true });
+export const transactions = pgTable("transactions", {
+  id: serial("id").primaryKey(),
+  userId: integer("user_id").references(() => users.id).notNull(),
+  planType: text("plan_type").$type<"tickets" | "sales" | "moderation">().notNull(),
+  amount: integer("amount").notNull(), // in cents
+  status: text("status").$type<"pending" | "completed" | "failed">().default("pending"),
+  createdAt: timestamp("created_at").defaultNow(),
+});
 
-// Tipos
-export type User = typeof users.$inferSelect;
-export type Plan = typeof plans.$inferSelect;
-export type Subscription = typeof subscriptions.$inferSelect;
-export type BotConfig = typeof botConfigs.$inferSelect;
+export const insertUserSchema = createInsertSchema(users).pick({
+  email: true,
+  password: true,
+  name: true,
+});
+
+export const insertBotConfigSchema = createInsertSchema(botConfigs).pick({
+  planType: true,
+  botToken: true,
+  config: true,
+});
+
+export const insertTransactionSchema = createInsertSchema(transactions).pick({
+  planType: true,
+  amount: true,
+});
+
+export const loginSchema = z.object({
+  email: z.string().email(),
+  password: z.string().min(6),
+});
 
 export type InsertUser = z.infer<typeof insertUserSchema>;
-export type InsertPlan = z.infer<typeof insertPlanSchema>;
-export type InsertSubscription = z.infer<typeof insertSubscriptionSchema>;
 export type InsertBotConfig = z.infer<typeof insertBotConfigSchema>;
+export type InsertTransaction = z.infer<typeof insertTransactionSchema>;
+export type LoginData = z.infer<typeof loginSchema>;
+export type User = typeof users.$inferSelect;
+export type BotConfig = typeof botConfigs.$inferSelect;
+export type Transaction = typeof transactions.$inferSelect;
